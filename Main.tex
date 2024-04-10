@@ -1,0 +1,215 @@
+\documentclass[letterpaper,11pt]{article}
+
+% --------------- PACKAGES -----------------------
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome}
+\usepackage[dvipsnames]{xcolor}
+\input{glyphtounicode}
+
+
+% ---------- RESUME FORMAT ADJUSTMENTS -------------
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+%-----------------RESUME STARTS HERE----------------------
+
+% The resume has Education, Experience, Projects, Achievements, Technical Skills, Coding Profiles sections
+% You can keep which all you want and in which order, comment the ones you don't need
+% In ordering your sections, keep the ones first which are your best selling points
+
+\begin{document}
+
+\begin{center}
+    \textbf{\Huge \scshape Binit Kumar Jha} \\ \vspace{2pt}
+    %\ \href{}{\textcolor{BlueViolet}{\faGlobe\enspace   \textbf{}}} $|$ 
+    \href{mailto:jhabinit98@gmail.com}{\textcolor{BlueViolet}{\faEnvelopeO\enspace \textbf{jhabinit98@gmail.com}}} $|$ 
+    \href{https://www.linkedin.com/in/binit-kumar-jha-6b57a4236/}{\textcolor{BlueViolet}{\faLinkedin\enspace \textbf{Linkedin}}} $|$
+    \href{https://github.com/6202Binit}{\textcolor{BlueViolet}{\faGithub\enspace \textbf{Github}}} $|$
+    \small {\faMobile\enspace \textbf{+91 6202146415}} $$
+\end{center}
+%-----------EDUCATION-----------
+% Write only your two highest formal educational qualifications
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Maulana Abul Kalam Azad University Of Technology}{Kolkata, India}
+      {Bachelor of Engineering, Computer Science -- \textbf{CGPA: 7.76}}{August 2021 -- June 2025}
+    \resumeSubheading
+      {MLSM College}{Darbhanga, India}
+      {Higher Secondary PCM -- \textbf{Percentage: 83.4\%}}{July 2017 -- April 2019}
+       \resumeSubheading
+      { B.K.S High School}{Madhubani, India}
+      {High School -- \textbf{Percentage: 74.4\%}}{July 2016 -- April 2017}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+%
+  \section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Software Engineer Intern}{Apr 2024 -- Present}
+      {\href{https://google.com/}{\textcolor{BlueViolet}{\textbf{\Large{Dfree Novelish}}}}}{Kanpur(Remote), India}
+      \resumeItemListStart
+        \resumeItem{ Currently, I am working as a web developer intern, primarily focused on developing our company's website. I am proficient in React.js and actively contribute to its development and enhancement.}
+        %\ \resumeItem{Try to mention stats and metrics of your work and the impact that you had}
+        %\ \resumeItem{Add \href{https://google.com/}{\textcolor{BlueViolet}{\textbf{link}}} to your internship projects if you can, and make \textbf{bold} key points}
+       %\ \resumeItem{Don't overbrag, keep it real and straight to point}/%
+      \resumeItemListEnd
+
+    % \resumeSubheading
+    %   {Another role}{Mar. 2022 - Sep. 2022}
+    %   {\href{https://google.com/}{\textcolor{BlueViolet}{\textbf{\Large{Company 2}}}}}{Bangalore(Remote), India}
+    %   \resumeItemListStart
+    %     \resumeItem{Explain about the tech stack that you worked on in production}
+    %     \resumeItem{Try to mention stats and metrics of your work and the impact that you had}
+    %     \resumeItem{Add \href{https://google.com/}{link} to your internship projects if you can, and make \textbf{bold} key points}
+    %     \resumeItem{Don't overbrag, keep it real and straight to point}
+    %   \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{\large{Quiz Application App}} $$ \emph{\href{https://google.com/}{\textcolor{BlueViolet}{\textbf{}}}} $|$ \emph{\href{https://github.com/6202Binit/Quiz_Application}{\textcolor{BlueViolet}{\textbf{Github}}}}}{Java, Swing, Mysql}
+          \resumeItemListStart
+            \resumeItem{
+I developed a Java Swing quiz application featuring a login page for user access. The quiz presents multiple-choice questions with four options per question. A notable feature I implemented is the "50-50" lifeline, where two incorrect options are eliminated, and the question is refreshed. Upon completing the quiz, users can check their results..}
+          \resumeItemListEnd
+          
+    \resumeProjectHeading
+          {\textbf{\large{CryptoCurrency 3D website}} $$ \emph{\href{https://google.com/}{\textcolor{BlueViolet}{\textbf{}}}} $|$ \emph{\href{https://github.com/6202Binit/crypto_website}{\textcolor{BlueViolet}{\textbf{Github}}}}}{React JS, Coingecko api, Tailwind CSS}
+          \resumeItemListStart
+            
+            \resumeItem{I developed a 3D website showcasing cryptocurrencies, utilizing the CoinGecko API to fetch real-time data. The website displays various cryptocurrencies, represented in Different different-style coins, accompanied by their market values in both USD and INR. Additionally, it features dynamic visualizations depicting positive and negative trends through line graphs.)}
+          \resumeItemListEnd
+
+           \resumeProjectHeading
+          {\textbf{\large{Text Summarization website}} $$ \emph{\href{https://google.com/}{\textcolor{BlueViolet}{\textbf{}}}} $|$ \emph{\href{https://github.com/6202Binit/Text_Summarization}{\textcolor{BlueViolet}{\textbf{Github}}}}}{PYTHON,SCAPY,NLP,HTML,CSS}
+          \resumeItemListStart
+           
+            \resumeItem{I developed a text summarization website employing Natural Language Processing (NLP) concepts. Users input paragraphs, and upon submission, the website generates concise summaries by identifying the most crucial lines. This process is facilitated through NLP techniques, ensuring accurate and meaningful summaries..)}
+          \resumeItemListEnd
+          
+    \resumeSubHeadingListEnd
+
+
+%-----------TECHNICAL SKILLS-----------
+% Don't fake this section, as interviewer might screw you in it
+
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: C, Java, Python, Javascript, HTML, CSS} \\
+     \textbf{Frameworks}{: React JS, Redux, Spring Boot,Spring Mvc,Hibernate,Swing,Styled components, Tailwind, Bootstrap} \\
+     \textbf{Databases}{:  MySQL,Jdbc} \\
+     \textbf{Developer Tools}{:  VS Code,Eclipse,Intellij,Git} \\
+     % or anything else you want, like cloud/developer tools, etc.
+    }}
+ \end{itemize}
+
+
+% --------CODING PROFILES--------------
+% keep only your best coding profiles here
+% add \\ after each 3rd profile to add a new line, if you add more profiles (which you shouldn't)
+
+\section{Coding Profiles}
+\renewcommand{\arraystretch}{0}
+\begin{tabular}{p{0.33\textwidth}p{0.33\textwidth}p{0.33\textwidth}}
+  \begin{itemize}[leftmargin=*, topsep=0pt]
+    \item LeetCode - \href{https://leetcode.com/Binit_kumar_jha/}{\textbf{\textcolor{BlueViolet}{Binit_kumar_jha}}}
+  \end{itemize} &
+  \begin{itemize}[leftmargin=*, topsep=0pt]
+    \item Github - \href{https://github.com/6202Binit}{\textbf{\textcolor{BlueViolet}{6202Binit}}}
+  \end{itemize} &
+  \begin{itemize}[leftmargin=*, topsep=0pt]
+    \item HackerRank - \href{https://www.hackerrank.com/profile/jhabinit98}{\textbf{\textcolor{BlueViolet}{jhabinit98}}}
+  \end{itemize} &
+  \begin{itemize}[leftmargin=*, topsep=0pt]
+    \item GeeksforGeeks - \href{https://auth.geeksforgeeks.org/user/jhabinit}{\textbf{\textcolor{BlueViolet}{jhabinit}}}
+  \end{itemize} &
+  
+\end{tabular}
+
+
+% -----------ACHIEVEMENTS/OPEN-SOURCE/RESEARCH-----------
+% Keep achievements as per the company you are applying to
+% If you have achievements in competitive programming, add it, it is useful when applying to product based companies
+% You should give more priority to hackathons' and open source's achievements when applying for startups or abroad companies
+
+\section{Achievements}
+\resumeItemListStart
+    \resumeItem{ 5 start in Problem solving , Mysql,java on HackerRank}
+    \resumeItem {Solved 500+ questions on LeetCode, Geek for Geeks and HackerRank || 1700+ rating on Leetcode}
+    \resumeItem{ \href{https://google.com/}{\textcolor{BlueViolet}{\textbf{}}}Participated at Flipkart Grid5 and Tata Crucible Campus Quiz}
+    \resumeItem{\textbf{Certificaction} }
+    \resumeItem{Java,Problem Solving,MySql,Python}
+\resumeItemListEnd
+
+%-------------------------------------------
+\end{document}
